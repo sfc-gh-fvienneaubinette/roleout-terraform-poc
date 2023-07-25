@@ -8,5 +8,5 @@ terraform {
 }
 
 provider "snowflake" {
-  role = "ACCOUNTADMIN"
+  role = "SECURITYADMIN"
 }
