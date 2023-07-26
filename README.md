@@ -90,3 +90,15 @@ git push origin HEAD
 terraform apply
 ```
 
+9. Cleanup
+
+```
+terraform destroy
+```
+
+Drop the user we created from Snowflake
+
+```
+use role accountadmin;
+drop user "tf-snow";
+```
